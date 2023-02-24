@@ -3,21 +3,21 @@
 <xsl:template match="/">
 <html lang="ru">
 <head>
-<title>Li Ziming</title>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <title>Li Ziming</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-<xsl:apply-templates />
-</math>
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <xsl:apply-templates />
+  </math>
 </body>
 </html>
 </xsl:template>
 <xsl:template match="строка">
-	<mrow>
-		<xsl:apply-templates />
-	</mrow>
+  <mrow>
+    <xsl:apply-templates/>
+  </mrow>
 </xsl:template>
 <xsl:template match="операнд">
     <mi>
