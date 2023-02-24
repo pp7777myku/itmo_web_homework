@@ -1,117 +1,101 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>个人代码存放博客</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-		
-		header {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			text-align: center;
-		}
-		
-		h1 {
-			margin: 0;
-		}
-		
-		main {
-			display: flex;
-			flex-direction: row;
-			height: 100vh;
-		}
-		
-		aside {
-			background-color: #f2f2f2;
-			padding: 20px;
-			width: 25%;
-		}
-		
-		article {
-			flex-grow: 1;
-			padding: 20px;
-		}
-		
-		.date {
-			font-weight: bold;
-			margin-bottom: 10px;
-		}
-		
-		.date a {
-			color: #333;
-			text-decoration: none;
-		}
-		
-		.date a:hover {
-			text-decoration: underline;
-		}
-		
-		.link {
-			display: block;
-			margin-bottom: 10px;
-		}
-		
-		.link a {
-			background-color: #333;
-			color: #fff;
-			display: block;
-			padding: 10px;
-			text-align: center;
-			text-decoration: none;
-			transition: background-color 0.3s ease;
-		}
-		
-		.link a:hover {
-			background-color: #444;
-		}
-	</style>
-</head>
-<body>
-	<header>
-		<h1>个人代码存放博客</h1>
-	</header>
-	<main>
-		<aside>
-			<h2>日期</h2>
-			<div class="date">
-				<a href="#">2023-02-23</a>
-			</div>
-			<div class="date">
-				<a href="#">2023-02-22</a>
-			</div>
-			<div class="date">
-				<a href="#">2023-02-21</a>
-			</div>
-			<div class="date">
-				<a href="#">2023-02-20</a>
-			</div>
-			<div class="date">
-				<a href="#">2023-02-19</a>
-			</div>
-			<div class="date">
-				<a href="#">2023-02-18</a>
-			</div>
-			<div class="date">
-				<a href="#">2023-02-17</a>
-			</div>
-			<div class="date">
-				<a href="#">2023-02-16</a>
-			</div>
-		</aside>
-		<article>
-			<h2>代码链接</h2>
-			<div class="link">
-				<a href="#">链接1</a>
-			</div>
-			<div class="link">
-				<a href="#">链接2</a>
-			</div>
-			<div class="link">
-				<a href="#">链接3</a>
-			</div>
-			<div class="link
+  <head>
+    <title>我的个人博客</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      nav {
+        background-color: #ddd;
+        padding: 10px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      pre {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        padding: 10px;
+        overflow-x: auto;
+      }
+
+      code {
+        font-family: "Courier New", Courier, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>我的个人博客</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">关于我</a></li>
+        <li><a href="#">博客文章</a></li>
+        <li><a href="#">联系我</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2>最新博客文章</h2>
+      <article>
+        <h3>如何使用HTML和CSS创建一个简单的个人博客</h3>
+        <p>在这篇文章中，我们将学习如何使用HTML和CSS创建一个简单的个人博客。</p>
+        <pre><code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+            &lt;head&gt;
+              &lt;title&gt;我的个人博客&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;h1&gt;欢迎来到我的个人博客！&lt;/h1&gt;
+              &lt;p&gt;在这里，我将分享我的想法、知识和经验。&lt;/p&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+        </code></pre>
+      </article>
+      <article>
+        <h3>如何使用JavaScript创建动态效果</h3>
+        <p>在这篇文章中，我们将学习如何使用JavaScript创建动态效果，例如弹出窗口和动画效果。</p>
+        <pre><code>
+          function showAlert() {
+            alert("Hello, world!");
+          }
+        </code></pre>
+      </article>
+    </section>
+  </body>
+</html>
