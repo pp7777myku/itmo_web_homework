@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html>
-<a href="https://pp7777myku.github.io/itmo_web_homework/" class="btn">Назад</a>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="640" height="480">
   <ellipse id="графика_1" fill-opacity="0.5" fill="rgb(255, 0, 0)" stroke="white" stroke-width="5" cx="206" cy="139" rx="100" ry="100" />
   <ellipse id="графика_2" fill-opacity="0.5" fill="rgb(0, 0, 255)" stroke="white" stroke-width="5" cx="108" cy="111" rx="100" ry="100" />
   <ellipse id="графика_3" fill-opacity="0.5" fill="rgb(0, 255, 0)" stroke="white" stroke-width="5" cx="134" cy="215" rx="100" ry="100" />
 </svg>
-
-<head>
-	<style>
-      .btn {
-		  display: inline-block;
-		  padding: 10px 20px;
-		  background-color: #333;
-		  color: #fff;
-		  border-radius: 5px;
-		  text-decoration: none;
-		  font-weight: bold;
-		  transition: background-color 0.3s ease;
-	      margin-right: 10px;
-	      float: left;
-	      margin-bottom: 20px;
-		}
-
-	.btn:hover {
-		  background-color: #666;
-		}
-	</style>	
-</head>
-</html>
